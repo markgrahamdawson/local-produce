@@ -1,7 +1,8 @@
 <template>
-  <div class="min-h-screen bg-red-500">
-    <h1>
-      Mapbox goes here
-    </h1>
+  <div class="min-h-screen">
+    <Map />
   </div>
 </template>
+
+<script setup lang="ts">
+</script>

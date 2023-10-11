@@ -1,6 +1,6 @@
 <template>
   <div 
-    class="fixed min-h-screen w-64 bg-slate-500 top-0 transition-all duration-500"
+    class="fixed min-h-screen w-64 bg-slate-500 top-0 transition-all duration-500 z-50"
     :class="sidebarOpen ? 'left-0' : '-left-48'"
     >
     <button @click="sidebarOpen = !sidebarOpen" class="w-full bg-blue-500">

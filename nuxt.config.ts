@@ -8,4 +8,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  runtimeConfig: {
+    public: {mapKey: process.env.MAPBOX_KEY}
+  }
 })
